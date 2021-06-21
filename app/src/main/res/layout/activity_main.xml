@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/w2"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+        <ImageView
+            android:background="@drawable/brown"
+            android:layout_gravity="center"
+            android:layout_width="410dp"
+            android:layout_height="40dp">
+
+        </ImageView>
+
+        <Button
+            android:layout_width="231dp"
+            android:layout_height="176dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="215dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/logo1"
+            android:gravity="center"
+            android:shadowColor="@color/white"
+            android:textColor="#cd853f"
+            android:textSize="27sp"
+            android:textStyle="bold">
+
+        </Button>
+
+        <Button
+            android:textSize="20sp"
+            android:id="@+id/button0"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/brown"
+            android:text="Visit"
+            android:textAllCaps="false"
+            android:textColor="#000000">
+
+        </Button>
+
+        <ImageView
+            android:layout_marginTop="205dp"
+            android:background="@drawable/brown"
+            android:layout_gravity="center"
+            android:layout_width="410dp"
+            android:layout_height="50dp">
+
+        </ImageView>
+</LinearLayout>
+
+
+
+

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    tools:context=".Activity2">
+
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:layout_width="255dp"
+        android:layout_height="40dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="255dp"
+            android:layout_height="40dp"
+            android:background="@drawable/green1"
+            android:layout_gravity="center"
+            android:text="Cauliflower Bologonese"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="190dp"
+        android:layout_height="90dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:background="@drawable/mc1"
+            android:layout_width="190dp"
+            android:layout_height="90dp">
+
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:layout_width="170dp"
+        android:layout_height="27dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="170dp"
+            android:layout_height="27dp"
+            android:background="@drawable/green1"
+            android:layout_gravity="center"
+            android:text="Ingredients"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:layout_width="370dp"
+        android:layout_height="235dp">
+
+
+        <TextView
+            android:background="@color/black"
+            android:textColor="#ffffff"
+            android:textSize="13sp"
+            android:layout_width="370dp"
+            android:layout_height="235dp"
+            android:layout_gravity="center"
+            android:text="
+3  oz Raspberry jello\n
+1  cup  boiling water\n
+1/2  cup  cold water\n
+1 1/2 cups whipped cream or cool whip\n
+1/2  cup  half and half milk\n
+2  packets unflavored gelatin\n
+2  cups  cold water\n
+1/2  cup  unsweetened chocolate chopped or chocolate chips\n
+2/3  cup  granulated sugar
+">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:layout_width="170dp"
+        android:layout_height="27dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="170dp"
+            android:layout_height="27dp"
+            android:background="@drawable/green1"
+            android:layout_gravity="center"
+            android:text="Process"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:layout_width="357dp"
+        android:layout_height="280dp">
+
+
+        <TextView
+            android:layout_width="357dp"
+            android:layout_height="280dp"
+            android:layout_gravity="center"
+            android:background="@color/black"
+            android:text="1, Place a muffin tin on a work surface. Set 6 wine glasses on the diagonal in the cups and set aside.\n
+2.	In a small-medium bowl, add 1 cup of boiling water and gelatin and stir slowly until dissolved.\n
+3.	Add 1/2 cup cold water and mix well. Set aside to cool until half set (Thick but not firm). It takes about over 1 hour at room temperature or 5-10 minutes in the fridge.\n
+4.	Once it’s half-settled, add whipped cream and mix well.\n
+5.	Pour the mixture into each glass. Keeping the glasses in position, slowly lift the tray and transfer to the fridge to chill for at least 2 hours to set
+"
+            android:textColor="#ffffff"
+            android:textSize="12sp">
+
+        </TextView>
+
+    </LinearLayout>
+</LinearLayout>

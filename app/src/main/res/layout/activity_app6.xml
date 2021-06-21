@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".Activity2">
+
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="330dp"
+        android:layout_height="40dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:background="@drawable/brown"
+            android:layout_gravity="center"
+            android:text="Bacon and Sun-Dried Tomato Phyllo Tarts"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="190dp"
+        android:layout_height="90dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:background="@drawable/app6"
+            android:layout_width="190dp"
+            android:layout_height="90dp">
+
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="left"
+        android:layout_width="170dp"
+        android:layout_height="35dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="170dp"
+            android:layout_height="35dp"
+            android:background="@drawable/brown"
+            android:layout_gravity="center"
+            android:text="Ingredients"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_gravity="left"
+        android:layout_width="370dp"
+        android:layout_height="250dp">
+
+
+        <TextView
+            android:background="@color/black"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:layout_width="370dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:text="
+2 teaspoons olive oil\n
+3/4 cup chopped onion (about 1 medium)\n
+3/4 cup chopped green pepper (about 1 small)\n
+3/4 cup chopped sweet red pepper (about 1 small)\n
+1 garlic clove, minced\n
+Dash dried oregano\n
+3 packages (1.9 ounces each)\n
+1 package (8 ounces) cream cheese, softened\n
+1-1/2 teaspoons lemon juice\n
+1/8 teaspoon salt\n
+1 egg, lightly beaten\n
+1/2 cup oil-packed sun-dried tomatoes, chopped and patted dry\n
+2 bacon strips, cooked and crumbled\n
+1 teaspoon dried basil\n
+1/2 cup crushed butter-flavored crackers\n
+1/2 cup shredded cheddar cheese
+">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="left"
+        android:layout_width="170dp"
+        android:layout_height="30dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:background="@drawable/brown"
+            android:layout_gravity="center"
+            android:text="Process"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_gravity="left"
+        android:layout_width="360dp"
+        android:layout_height="230dp">
+
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="230dp"
+            android:layout_gravity="center"
+            android:background="@color/black"
+            android:text="1.	Preheat oven to 350°. In a large skillet, heat oil over medium-high heat. Add onion and peppers; cook and stir 6-8 minutes or until tender. Add garlic and oregano; cook 1 minute longer. Cool completely.\n
+2.	Place tart shells on ungreased baking sheets. In a large bowl, beat cream cheese, lemon juice and salt until smooth. Add egg; beat on low speed just until blended. Stir in tomatoes, bacon, basil and onion mixture.\n
+3.	Spoon 2 teaspoons filling into each tart shell. Top each with 1/2 teaspoon crushed crackers and 1/2     teaspoon cheddar cheese.\n
+4.	Bake 10-12 minutes or until set. Serve warm.\n"
+            android:textColor="#ffffff"
+            android:textSize="13sp">
+
+        </TextView>
+
+    </LinearLayout>
+</LinearLayout>

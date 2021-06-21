@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    tools:context=".Activity2">
+
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:layout_width="330dp"
+        android:layout_height="40dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:background="@drawable/green1"
+            android:layout_gravity="center"
+            android:text="Chicken Stew with Potatoes Radishes"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="190dp"
+        android:layout_height="90dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:background="@drawable/mc3"
+            android:layout_width="190dp"
+            android:layout_height="90dp">
+
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:layout_width="170dp"
+        android:layout_height="27dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="170dp"
+            android:layout_height="27dp"
+            android:background="@drawable/green1"
+            android:layout_gravity="center"
+            android:text="Ingredients"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:layout_width="370dp"
+        android:layout_height="235dp">
+
+
+        <TextView
+            android:background="@color/black"
+            android:textColor="#ffffff"
+            android:textSize="13sp"
+            android:layout_width="370dp"
+            android:layout_height="235dp"
+            android:layout_gravity="center"
+            android:text="4 chicken legs (thigh and drumstick)\n
+2 tablespoons extra-virgin olive oil\n
+1 large onion, chopped\n
+5 garlic cloves, thinly sliced\n
+2 tablespoons (or more) Hungarian hot or sweet paprika\n
+1 (28-ounce) can whole peeled tomatoes\n
+3 cups (or more) homemade chicken stock or low-sodium chicken broth\n
+1 1/2 pounds baby Yukon Gold potatoes\n
+1/2 lemon, 3/4 cup sour cream\n
+6 radishes (about 1 bunch), trimmed, thinly sliced
+">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:layout_width="170dp"
+        android:layout_height="27dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="170dp"
+            android:layout_height="27dp"
+            android:background="@drawable/green1"
+            android:layout_gravity="center"
+            android:text="Process"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:layout_width="357dp"
+        android:layout_height="280dp">
+
+
+        <TextView
+            android:layout_width="357dp"
+            android:layout_height="280dp"
+            android:layout_gravity="center"
+            android:background="@color/black"
+            android:text="1.	Preheat oven to 400°F. Season pork chops on both sides with 1 1/4 tsp. salt and 1 tsp. pepper.\n
+2.	Heat 1 Tbsp. oil in a large skillet over high. Working in batches if needed, sear pork chops until browned, about 2 minutes per side. Transfer chops to a wire rack set inside a rimmed baking sheet; reserve pan drippings in skillet\n
+3. Stir in red pepper flakes, if using, 2 Tbsp. honey, and 1/4 tsp. salt. Add grapes, figs, and rosemary and stir to coat. Continue to cook, stirring occasionally, until sauce is thickened and fruit is softened, about 8 minutes.\n
+4.	Whisk lemon juice, mustard, and remaining 3 Tbsp. oil, 1 tsp. honey, 1/2 tsp. salt, and 1/4 tsp. pepper in a large bowl\n
+5.	Divide radicchio salad and pork chops among plates. Top with agrodolce."
+            android:textColor="#ffffff"
+            android:textSize="12sp">
+
+        </TextView>
+
+    </LinearLayout>
+</LinearLayout>

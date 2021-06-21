@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".Activity2">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/black"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginStart="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="MAIN COURSE"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="5dp"
+        android:layout_width="359dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/mc1"
+        android:paddingBottom="5dp">
+
+        <Button
+            android:id="@+id/main1"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/black"
+            android:text="Recipe"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="25sp">
+
+        </Button>
+
+        <TextView
+
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:background="@drawable/green"
+            android:gravity="center"
+            android:text="Cauliflower Bolognese"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_marginStart="10dp"
+        android:layout_width="370dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/mc2"
+        android:paddingBottom="7dp">
+
+        <Button
+            android:textColor="@color/white"
+            android:id="@+id/main2"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/black"
+            android:text="Recipe"
+            android:textAllCaps="false"
+            android:textSize="25sp">
+        </Button>
+
+        <TextView
+            android:layout_marginTop="7dp"
+            android:layout_width="205dp"
+            android:layout_height="75dp"
+            android:background="@drawable/green"
+            android:gravity="center"
+            android:text="Pork Chops with Grape Agrodolce"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_width="370dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/mc3"
+        android:paddingBottom="5dp">
+
+        <Button
+            android:textColor="@color/white"
+            android:id="@+id/main3"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/black"
+            android:text="Recipe"
+            android:textAllCaps="false"
+            android:textSize="25sp">
+
+        </Button>
+
+        <TextView
+            android:layout_marginTop="7dp"
+            android:layout_width="190dp"
+            android:layout_height="85dp"
+            android:background="@drawable/green"
+            android:gravity="center"
+            android:text="Chicken Stew with Potatoes Radishes"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_width="370dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/mc4"
+        android:paddingBottom="5dp">
+
+        <Button
+            android:textColor="@color/white"
+            android:id="@+id/main4"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/black"
+            android:text="Recipe"
+            android:textAllCaps="false"
+            android:textSize="25sp">
+
+        </Button>
+
+        <TextView
+
+            android:layout_width="190dp"
+            android:layout_height="60dp"
+            android:background="@drawable/green"
+            android:gravity="center"
+            android:text="Pork Belly with Chile Vinegar"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_width="370dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/mc5"
+        android:paddingBottom="5dp">
+
+        <Button
+            android:textColor="@color/white"
+            android:id="@+id/main5"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/black"
+            android:text="Recipe"
+            android:textAllCaps="false"
+            android:textSize="25sp">
+
+        </Button>
+
+        <TextView
+            android:layout_marginTop="7dp"
+            android:layout_width="190dp"
+            android:layout_height="70dp"
+            android:background="@drawable/green"
+            android:gravity="center"
+            android:text="Clam Toast with Pancetta"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:paddingTop="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_width="370dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/mc6"
+        android:paddingBottom="5dp">
+
+        <Button
+            android:textColor="@color/white"
+            android:id="@+id/main6"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/black"
+            android:text="Recipe"
+            android:textAllCaps="false"
+            android:textSize="25sp">
+
+        </Button>
+
+        <TextView
+
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:background="@drawable/green"
+            android:gravity="center"
+            android:text="Broiled Salmon with Scallions and Sesame"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/green1">
+
+    </ImageView>
+</LinearLayout>

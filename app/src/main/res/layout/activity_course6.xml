@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    tools:context=".Activity2">
+
+    <LinearLayout
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:layout_width="367dp"
+        android:layout_height="40dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="370dp"
+            android:layout_height="40dp"
+            android:background="@drawable/green1"
+            android:layout_gravity="center"
+            android:text="Broiled Salmon with Scallions and Sesame"
+            android:textColor="#000000"
+            android:textSize="16.5sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="190dp"
+        android:layout_height="90dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:background="@drawable/mc6"
+            android:layout_width="190dp"
+            android:layout_height="90dp">
+
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:layout_width="170dp"
+        android:layout_height="27dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="170dp"
+            android:layout_height="27dp"
+            android:background="@drawable/green1"
+            android:layout_gravity="center"
+            android:text="Ingredients"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:layout_width="370dp"
+        android:layout_height="235dp">
+
+
+        <TextView
+            android:background="@color/black"
+            android:textColor="#ffffff"
+            android:textSize="13sp"
+            android:layout_width="370dp"
+            android:layout_height="235dp"
+            android:layout_gravity="center"
+            android:text="2 garlic cloves, thinly sliced\n
+3 tablespoons fresh lime juice\n
+2 tablespoons soy sauce\n
+2 teaspoons honey\n
+1 tablespoon plus 2 teaspoons vegetable oil\n
+1/2 teaspoon sesame seeds, plus more for serving\n
+3 (8-ounce) skin-on center-cut salmon fillets\n
+1 bunch scallions, Kosher salt\n
+1 Fresno chile, thinly sliced
+">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:layout_width="170dp"
+        android:layout_height="27dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="170dp"
+            android:layout_height="27dp"
+            android:background="@drawable/green1"
+            android:layout_gravity="center"
+            android:text="Process"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:layout_width="357dp"
+        android:layout_height="280dp">
+
+
+        <TextView
+            android:layout_width="357dp"
+            android:layout_height="280dp"
+            android:layout_gravity="center"
+            android:background="@color/black"
+            android:text="1.	Whisk garlic, lime juice, soy sauce, honey, 1 Tbsp. oil, and 1/2 tsp. sesame seeds in a small bowl. Season salmon fillets with salt and place in a resealable plastic bag; add half of marinade.\n
+2.	Preheat broiler. Toss scallions with remaining 2 tsp. oil on sizzle platter; broil until lightly charred, about 3 minutes. Remove salmon from marinade and set on top of scallions. Spoon some reserved marinade over and broil until salmon is charred around edges, about 6 minutes (watch closely to keep from burning). Spoon more marinade over; top with chile. Broil until salmon is charred and medium-rare at thickest part, about 2 minutes. Sprinkle with more sesame seeds."
+            android:textColor="#ffffff"
+            android:textSize="12sp">
+
+        </TextView>
+
+    </LinearLayout>
+</LinearLayout>

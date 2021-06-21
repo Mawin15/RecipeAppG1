@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    tools:context=".Activity2">
+
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:layout_width="215dp"
+        android:layout_height="40dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="215dp"
+            android:layout_height="40dp"
+            android:background="@drawable/maroon"
+            android:layout_gravity="center"
+            android:text="Filipino Spring Rolls"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="190dp"
+        android:layout_height="90dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:background="@drawable/inamo1"
+            android:layout_width="190dp"
+            android:layout_height="90dp">
+
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:layout_width="170dp"
+        android:layout_height="27dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="170dp"
+            android:layout_height="27dp"
+            android:background="@drawable/maroon"
+            android:layout_gravity="center"
+            android:text="Ingredients"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:layout_width="370dp"
+        android:layout_height="235dp">
+
+
+        <TextView
+            android:background="@color/black"
+            android:textColor="#ffffff"
+            android:textSize="13sp"
+            android:layout_width="370dp"
+            android:layout_height="235dp"
+            android:layout_gravity="center"
+            android:text="	25 spring roll wrappers\n
+	1 lb (450g) lean ground pork\n
+	3 cloves garlic , minced\n
+	1 onion , minced and 1 egg\n
+	1 medium carrot , peeled and grated\n
+	1/2 cup celery , diced into small pieces\n
+	2 tbsp soy sauce, 1/4 teaspoon salt\n
+	1/4 teaspoon freshly ground black pepper\n
+	1 egg white , for sealing rolls\n
+	2-4 cups canola oil for frying">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:layout_width="170dp"
+        android:layout_height="27dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="170dp"
+            android:layout_height="27dp"
+            android:background="@drawable/maroon"
+            android:layout_gravity="center"
+            android:text="Process"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:layout_width="357dp"
+        android:layout_height="280dp">
+
+
+        <TextView
+            android:layout_width="357dp"
+            android:layout_height="280dp"
+            android:layout_gravity="center"
+            android:background="@color/black"
+            android:text="1.	In a large bowl, combine pork, garlic, onion, carrot, celery, soy sauce, egg, salt and pepper. Carefully separate the wrappers.\n
+2.	Lay one wrapper on clean surface. Place 1 heaping tablespoon of the filling diagonally near one corner of the wrapper and gently push the filling into about 4-inch log, leaving a 1 1/2 inch space at both ends. Fold the side nearest to you over the filling, then fold in both sides and roll neatly and tight beaten egg white to seal the edge.\n
+3.In a deep pan, add the oil to about 1-inch depth and heat to 350F.Carefully slide the lumpia, a few at a time, into the oil and fry until crispy and golden brown on all sides, 3 to 5 minutes totalRemove from oil and drain on paper towels"
+            android:textColor="#ffffff"
+            android:textSize="12sp">
+
+        </TextView>
+
+    </LinearLayout>
+</LinearLayout>

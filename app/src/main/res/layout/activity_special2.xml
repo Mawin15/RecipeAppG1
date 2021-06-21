@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    tools:context=".Activity2">
+
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:layout_width="185dp"
+        android:layout_height="40dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="185dp"
+            android:layout_height="40dp"
+            android:background="@drawable/maroon"
+            android:layout_gravity="center"
+            android:text="Crispy Bagbagis"
+            android:textColor="#ffffff"
+            android:textSize="17sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="190dp"
+        android:layout_height="90dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:background="@drawable/inamo2"
+            android:layout_width="190dp"
+            android:layout_height="90dp">
+
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:layout_width="170dp"
+        android:layout_height="27dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="170dp"
+            android:layout_height="27dp"
+            android:background="@drawable/maroon"
+            android:layout_gravity="center"
+            android:text="Ingredients"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:layout_width="370dp"
+        android:layout_height="235dp">
+
+
+        <TextView
+            android:background="@color/black"
+            android:textColor="#ffffff"
+            android:textSize="13sp"
+            android:layout_width="370dp"
+            android:layout_height="235dp"
+            android:layout_gravity="center"
+            android:text="	2 lbs. pre-cleaned pork large intestines\n
+	5 tablespoons coarse rock salt\n
+	5 pieces dried bay leaves dahon ng laurel\n
+	1 tablespoon whole peppercorn\n
+	Water for boiling\n
+	3 cups cooking oil
+">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:layout_width="170dp"
+        android:layout_height="27dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="170dp"
+            android:layout_height="27dp"
+            android:background="@drawable/maroon"
+            android:layout_gravity="center"
+            android:text="Process"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:layout_width="357dp"
+        android:layout_height="290dp">
+
+
+        <TextView
+            android:layout_width="357dp"
+            android:layout_height="290dp"
+            android:layout_gravity="center"
+            android:background="@color/black"
+            android:text="1.Clean the intestines well with running water.Boil water in a large pot.\n
+2.	Once the water starts to boil, add the intestines. Boil for 15 minutes. Discard the water. Pour a clean batch of water on the pot. Boil with the intestines for 15 to 20 minutes. Discard one more time.	Pour the third batch of water in a pot. Let boil\n
+3.	Add 3 tablespoons rock salt, bay leaves, and peppercorn. Continue to boil in low to medium heat for 1 hour. Remove the intestine and let cool.\n
+4.	Rub the remaining salt all over these and let it stay for 5 minutes.Cut the intestines crosswise into small pieces.\n
+5.	Heat the oil in a large pot. Once the oil gets hot, deep-fry the intestines until crispy.\n
+6.	Remove the crispy intestines from the pot and arrange in a serving plate.\n"
+            android:textColor="#ffffff"
+            android:textSize="12sp">
+
+        </TextView>
+
+    </LinearLayout>
+</LinearLayout>

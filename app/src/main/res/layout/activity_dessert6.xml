@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    tools:context=".Activity2">
+
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:layout_width="310dp"
+        android:layout_height="40dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:background="@drawable/pink"
+            android:layout_gravity="center"
+            android:text="Pavlola with Blueberry Jam"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="190dp"
+        android:layout_height="90dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:background="@drawable/dess6"
+            android:layout_width="190dp"
+            android:layout_height="90dp">
+
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:layout_width="170dp"
+        android:layout_height="27dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="170dp"
+            android:layout_height="27dp"
+            android:background="@drawable/pink"
+            android:layout_gravity="center"
+            android:text="Ingredients"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:layout_width="370dp"
+        android:layout_height="235dp">
+
+
+        <TextView
+            android:background="@color/black"
+            android:textColor="#ffffff"
+            android:textSize="13sp"
+            android:layout_width="370dp"
+            android:layout_height="235dp"
+            android:layout_gravity="center"
+            android:text="
+6 egg whites use the yolks to make ice cream!\n
+1 teaspoon cream of tartar\n
+1/4 teaspoon salt\n
+1 1/4 cups sugar\n
+1 cup blueberries\n
+1/4 cup sugar\n
+1/4 cup light corn syrup\n
+1 teaspoon lemon juice\n
+1 teaspoon lemon zest\n
+mint leaves to garnish
+
+">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:layout_width="170dp"
+        android:layout_height="27dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="170dp"
+            android:layout_height="27dp"
+            android:background="@drawable/pink"
+            android:layout_gravity="center"
+            android:text="Process"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:layout_width="357dp"
+        android:layout_height="280dp">
+
+
+        <TextView
+            android:layout_width="357dp"
+            android:layout_height="280dp"
+            android:layout_gravity="center"
+            android:background="@color/black"
+            android:text="1.	With an electric mixer set to medium whisk together the egg whites, cream of tartar and salt for 3 minutes.Once the meringue is thick and can form stiff peaks you're done (about 6 minutes total)\n
+2.	Cover a baking sheet with parchment paper. Spoon on big dollops of meringue and press the centers to form little bowls (to hold the jam later). Bake at 250°F for 1 hour and 20 minutes\n
+Cook over medium heat (so it just reaches the boiling point) for 6-8 minutes. Remove from heat, the jam will thicken as it cools. Top the Pavlovas with warm jam and a mint sprig."
+            android:textColor="#ffffff"
+            android:textSize="12sp">
+
+        </TextView>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".Activity2">
+
+    <LinearLayout
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="355dp"
+        android:layout_height="40dp">
+
+
+        <TextView
+            android:paddingStart="5dp"
+            android:layout_width="355dp"
+            android:layout_height="40dp"
+            android:background="@drawable/orange1"
+            android:layout_gravity="center"
+            android:text="Spiced Tomato Soup with FlatBread"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="190dp"
+        android:layout_height="90dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:background="@drawable/soup5"
+            android:layout_width="190dp"
+            android:layout_height="90dp">
+
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="left"
+        android:layout_width="170dp"
+        android:layout_height="35dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="170dp"
+            android:layout_height="35dp"
+            android:background="@drawable/orange1"
+            android:layout_gravity="center"
+            android:text="Ingredients"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_gravity="left"
+        android:layout_width="370dp"
+        android:layout_height="250dp">
+
+
+        <TextView
+            android:background="@color/black"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:layout_width="370dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:text="
+ 2 tbsp. olive oil\n
+1 large onion, chopped, 2 large cloves garlic\n
+1 red pepper chopped, 1 tbsp. brown sugar, chopped\n
+Kosher salt and pepper\n
+1 jalapeño, 1 tsp. ground cumin\n
+1 piece ginger, peeled, 2 tsp. ground coriander\n
+2 lb. tomatoes, roughly chopped, 2 pocketless pitas\n
+1 13.5-oz. can light coconut milk\n
+2 tbsp. unsalted butter, at room temperature\n
+2 tbsp. Finely shredded coconut\n
+2 tbsp. fresh cilantro, finely chopped
+        ">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="left"
+        android:layout_width="170dp"
+        android:layout_height="30dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:background="@drawable/orange1"
+            android:layout_gravity="center"
+            android:text="Process"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_gravity="left"
+        android:layout_width="360dp"
+        android:layout_height="230dp">
+
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="230dp"
+            android:layout_gravity="center"
+            android:background="@color/black"
+            android:text="1.	Heat oven to 425°F. Heat a large Dutch oven or soup pot over medium-low heat. Add the oil, then the onion, pepper, and 1/2 teaspoon salt, and cook, covered, stirring occasionally until tender, 8 to 10 minutes.\n
+2.	Meanwhile, finely grate the garlic, jalapeño, and ginger. Add to the onions and cook, stirring, 1 minute. Add the coriander and cumin and cook, stirring, 1 minute.\n
+3.	Add the tomatoes, the coconut milk, and 2 cups water; increase heat to medium-high and bring to a boil.\n
+4.	Using an immersion blender purée the soup until smooth
+"
+            android:textColor="#ffffff"
+            android:textSize="13sp">
+
+        </TextView>
+
+    </LinearLayout>
+</LinearLayout>

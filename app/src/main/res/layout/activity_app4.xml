@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".Activity2">
+
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="280dp"
+        android:layout_height="40dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:background="@drawable/brown"
+            android:layout_gravity="center"
+            android:text="Ham n' Cheese Biscuit Stacks"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="190dp"
+        android:layout_height="90dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:background="@drawable/app4"
+            android:layout_width="190dp"
+            android:layout_height="90dp">
+
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="left"
+        android:layout_width="170dp"
+        android:layout_height="35dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="170dp"
+            android:layout_height="35dp"
+            android:background="@drawable/brown"
+            android:layout_gravity="center"
+            android:text="Ingredients"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_gravity="left"
+        android:layout_width="370dp"
+        android:layout_height="250dp">
+
+
+        <TextView
+            android:background="@color/black"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:layout_width="370dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:text="
+4 tubes (6 ounces each) small refrigerated flaky biscuits (5 count each)\n
+1/4 cup stone-ground mustard\n
+1/2 cup butter, softened\n
+1/4 cup chopped green onions\n
+1/2 cup stone-ground mustard\n
+1/4 cup mayonnaise\n
+1/4 cup honey\n
+10 thick slices deli ham, quartered\n
+10 slices Swiss cheese, quartered\n
+2-1/2 cups shredded romaine\n
+20 pitted ripe olives, drained and patted dry\n
+20 pimiento-stuffed olives, drained and patted dry\n
+40 frilled toothpicks.
+">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="left"
+        android:layout_width="170dp"
+        android:layout_height="30dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:background="@drawable/brown"
+            android:layout_gravity="center"
+            android:text="Process"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_gravity="left"
+        android:layout_width="360dp"
+        android:layout_height="230dp">
+
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="230dp"
+            android:layout_gravity="center"
+            android:background="@color/black"
+            android:text="1.	Preheat oven to 400°. Cut biscuits in half to make half-circles; place 2 in. apart on ungreased baking sheets. Spread mustard over tops. Bake until golden brown, 8-10 minutes. Cool completely on wire racks.\n
+2.	Mix butter and green onions. In another bowl, mix mustard, mayonnaise and honey. Split each biscuit into 2 layers.\n
+3.	Spread biscuit bottoms with butter mixture; top with ham, cheese, romaine and biscuit tops. Spoon mustard mixture over tops. Thread 1 olive onto each toothpick; insert into stacks. Serve immediately
+"
+            android:textColor="#ffffff"
+            android:textSize="13sp">
+
+        </TextView>
+
+    </LinearLayout>
+</LinearLayout>

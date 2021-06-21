@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    tools:context=".Activity2">
+
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:layout_width="270dp"
+        android:layout_height="40dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="270dp"
+            android:layout_height="40dp"
+            android:background="@drawable/orange1"
+            android:layout_gravity="center"
+            android:text="Pesto Chicken Minestrone"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="190dp"
+        android:layout_height="90dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:background="@drawable/soup2"
+            android:layout_width="190dp"
+            android:layout_height="90dp">
+
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:layout_width="170dp"
+        android:layout_height="27dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="170dp"
+            android:layout_height="27dp"
+            android:background="@drawable/orange1"
+            android:layout_gravity="center"
+            android:text="Ingredients"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:layout_width="370dp"
+        android:layout_height="235dp">
+
+
+        <TextView
+            android:background="@color/black"
+            android:textColor="#ffffff"
+            android:textSize="13sp"
+            android:layout_width="370dp"
+            android:layout_height="235dp"
+            android:layout_gravity="center"
+            android:text="
+1 head garlic\n
+3 tbsp. olive oil, divided\n
+1 small onion, chopped\n
+8 c. chicken stock\n
+1 1/4 lb. boneless, ­skinless chicken breast\n
+1 large piece Parmesan cheese rind\n
+1 (15.5-ounce) can dark red kidney beans, rinsed\n
+2 large carrots, sliced\n
+1/4 tsp. crushed red pepper\n
+1 (9-ounce) package fresh four-cheese tortellini\n
+1 bunch curly kale, stems discarded and leaves torn\n
+2 tbsp. prepared pesto, and salt\n
+">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:layout_width="170dp"
+        android:layout_height="27dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="170dp"
+            android:layout_height="27dp"
+            android:background="@drawable/orange1"
+            android:layout_gravity="center"
+            android:text="Process"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:layout_width="350dp"
+        android:layout_height="280dp">
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="280dp"
+            android:layout_gravity="center"
+            android:background="@color/black"
+            android:text="1.	Preheat oven to 400°F. Cut off pointed end of garlic, exposing cloves. Place on a piece of aluminum foil and drizzle with 1 tablespoon oil; wrap tightly. Bake until soft, 35 to 40 minutes; let cool. Squeeze pulp from garlic and mash into a paste; reserve.\n
+2.	Meanwhile, heat remaining 2 tablespoons oil in a large pot or Dutch oven over medium-high heat. Add onion and cook. Add chicken stock, chicken breast, and Parmesan rind. Reduce heat to low and simmer, covered, until chicken is cooked through, 25 to 30 minutes.\n
+3.	Stir in beans, carrots, red pepper, and 2 tablespoons reserved mashed garlic. Simmer, covered, 15 minutes. Uncover and stir in tortellini.Stir in kale and cook until pasta is cooked through and kale."
+            android:textColor="#ffffff"
+            android:textSize="12sp">
+
+        </TextView>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    tools:context=".Activity2">
+
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:layout_width="330dp"
+        android:layout_height="40dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:background="@drawable/orange1"
+            android:layout_gravity="center"
+            android:text="Spiced Sweet Potato and Peanut Puree"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="190dp"
+        android:layout_height="90dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:background="@drawable/soup3"
+            android:layout_width="190dp"
+            android:layout_height="90dp">
+
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:layout_width="170dp"
+        android:layout_height="27dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="170dp"
+            android:layout_height="27dp"
+            android:background="@drawable/orange1"
+            android:layout_gravity="center"
+            android:text="Ingredients"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:layout_width="370dp"
+        android:layout_height="235dp">
+
+
+        <TextView
+            android:background="@color/black"
+            android:textColor="#ffffff"
+            android:textSize="13sp"
+            android:layout_width="370dp"
+            android:layout_height="235dp"
+            android:layout_gravity="center"
+            android:text="
+2 1/2 lb. sweet potatoes, peeled and chopped\n
+1 2-in. piece fresh ginger, cut into 1/2-in. pieces\n
+4 c. vegetable stock\n
+1 14.5-oz. can diced tomatoes, Freshly ground black pepper\n
+1/3 c. creamy natural peanut butter\n
+1/3 c. fresh cilantro, plus more for garnish\n
+Chopped roasted salted peanuts, for garnish\n
+For the Smoky Pita Chips\n
+3 tbsp. extra-virgin olive oil\n
+1 onion, chopped and 1 Chopped Garlic Clove\n
+">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:layout_width="170dp"
+        android:layout_height="27dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="170dp"
+            android:layout_height="27dp"
+            android:background="@drawable/orange1"
+            android:layout_gravity="center"
+            android:text="Process"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:layout_width="350dp"
+        android:layout_height="280dp">
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="280dp"
+            android:layout_gravity="center"
+            android:background="@color/black"
+            android:text="1.	Combine sweet potatoes, onion, 3 chopped garlic cloves, ginger, stock, tomatoes, cumin, cinnamon (if desired), 1 cup water, 1 teaspoon ground cumin, and 1 teaspoon each salt and pepper in a 6-quart slow cooker. Cover and cook until potatoes are tender on low for 7 to 8 hours or high 3 1/2 to 4 1/2 hours.\n
+2.	Discard ginger. Add peanut butter and cilantro and stir until combined. Using a blender or immersion blender, process until smooth, 2 to 3 minutes. Season with salt and pepper.\n
+3.	Make the Smoky Pita Chips: Combine olive oil, garlic, and paprika in a bowl. Brush over pitas. Season with salt and pepper. Bake at 350 degrees F until toasted and crisp, 10 to 12 minutes. Break into chips.
+"
+            android:textColor="#ffffff"
+            android:textSize="12sp">
+
+        </TextView>
+
+    </LinearLayout>
+</LinearLayout>

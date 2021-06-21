@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".Activity2">
+
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="210dp"
+        android:layout_height="40dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="210dp"
+            android:layout_height="40dp"
+            android:background="@drawable/brown"
+            android:layout_gravity="center"
+            android:text="Cranberry Brie Bites"
+            android:textColor="#000000"
+            android:textSize="19sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="190dp"
+        android:layout_height="90dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:background="@drawable/app2"
+            android:layout_width="190dp"
+            android:layout_height="90dp">
+
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="left"
+        android:layout_width="170dp"
+        android:layout_height="35dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="170dp"
+            android:layout_height="35dp"
+            android:background="@drawable/brown"
+            android:layout_gravity="center"
+            android:text="Ingredients"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_gravity="left"
+        android:layout_width="370dp"
+        android:layout_height="250dp">
+
+
+        <TextView
+            android:background="@color/black"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:layout_width="370dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:text="
+    1 (8-oz.) tube crescent dough \n
+    Cooking spray, for pan Flour, for surface\n
+    1 (8-oz.) wheel of brie\n
+    1/2 c. whole berry cranberry sauce\n
+    1/4 c. chopped pecans\n
+    6 sprigs of rosemary, cut into 1 pieces">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="left"
+        android:layout_width="170dp"
+        android:layout_height="30dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:background="@drawable/brown"
+            android:layout_gravity="center"
+            android:text="Process"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_gravity="left"
+        android:layout_width="360dp"
+        android:layout_height="230dp">
+
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="230dp"
+            android:layout_gravity="center"
+            android:background="@color/black"
+            android:text="1.	Preheat oven to 375° and grease a mini muffin tin with cooking spray. On a lightly floured surface, roll out crescent dough, and pinch together seams. Cut into 24 squares. Place squares into muffin tin slots.\n
+2.	Cut brie into small pieces and place inside the crescent dough. Top with a spoonful of cranberry sauce, some chopped pecans, and one little sprig of rosemary.\n
+3.	Bake until the crescent pastry is golden, about 15 minutes."
+            android:textColor="#ffffff"
+            android:textSize="13sp">
+
+        </TextView>
+
+    </LinearLayout>
+</LinearLayout>

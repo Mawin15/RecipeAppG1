@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".Activity2">
+
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="40dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:background="@drawable/orange1"
+            android:layout_gravity="center"
+            android:text="Ultimate Chicken Noodle Soup"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="190dp"
+        android:layout_height="90dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:background="@drawable/soup6"
+            android:layout_width="190dp"
+            android:layout_height="90dp">
+
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="left"
+        android:layout_width="170dp"
+        android:layout_height="35dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="170dp"
+            android:layout_height="35dp"
+            android:background="@drawable/orange1"
+            android:layout_gravity="center"
+            android:text="Ingredients"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_gravity="left"
+        android:layout_width="370dp"
+        android:layout_height="250dp">
+
+
+        <TextView
+            android:background="@color/black"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:layout_width="370dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:text="
+    4 small boneless, skinless chicken breasts (about 1 1/2 lbs.)\n
+kosher salt, black pepper\n
+4 medium carrots (about 12 oz.), cut into 1/2-in. pieces\n
+2 stalks celery, sliced\n
+2 large cloves garlic, finely chopped, 1 onion, chopped\n
+2 large sprigs fresh dill, plus more for serving\n
+6 c. low-sodium chicken broth\n
+2 c. wide egg noodles\n
+1 c. frozen peas.\n
+">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="left"
+        android:layout_width="170dp"
+        android:layout_height="30dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:background="@drawable/orange1"
+            android:layout_gravity="center"
+            android:text="Process"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_gravity="left"
+        android:layout_width="360dp"
+        android:layout_height="230dp">
+
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="230dp"
+            android:layout_gravity="center"
+            android:background="@color/black"
+            android:text="1.Season the chicken with 1⁄2 tsp each salt and pepper and place on the bottom of a 5- to 6-qt slow cooker. Top with the carrots, celery, garlic, onion and dill.\n
+2.	Add the chicken broth and cook, covered, until the chicken is cooked through and very tender, 3 to 4 hours on high or 5 to 6 hours on low.\n
+3.	Remove and discard the large dill stems. Transfer the chicken to a cutting board and let cool for 5 minutes, then cut into pieces.\n
+4.	While the chicken is cooling, add the noodles to the slow cooker, turn on high and cook, covered, until just tender, 10 to 15 minutes. Stir in the peas and chicken.
+"
+            android:textColor="#ffffff"
+            android:textSize="13sp">
+
+        </TextView>
+
+    </LinearLayout>
+</LinearLayout>

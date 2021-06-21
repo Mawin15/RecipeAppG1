@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    tools:context=".Activity2">
+
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:layout_width="310dp"
+        android:layout_height="40dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="310dp"
+            android:layout_height="40dp"
+            android:background="@drawable/pink"
+            android:layout_gravity="center"
+            android:text="Peanut Butter Explosion Cakes"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="190dp"
+        android:layout_height="90dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:background="@drawable/dess3"
+            android:layout_width="190dp"
+            android:layout_height="90dp">
+
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:layout_width="170dp"
+        android:layout_height="27dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="170dp"
+            android:layout_height="27dp"
+            android:background="@drawable/pink"
+            android:layout_gravity="center"
+            android:text="Ingredients"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:layout_width="370dp"
+        android:layout_height="235dp">
+
+
+        <TextView
+            android:background="@color/black"
+            android:textColor="#ffffff"
+            android:textSize="13sp"
+            android:layout_width="370dp"
+            android:layout_height="235dp"
+            android:layout_gravity="center"
+            android:text="1/2 c. (1 stick) butter, cut into cubes, plus more for ramekins\n
+1 c. chocolate chips \n
+2 large eggs, plus 2 egg yolks\n
+1 tsp. pure vanilla extract\n
+1/4 c. unsweetened cocoa powder\n
+1/4 c. all-purpose flour\n
+1/2 tsp. kosher salt\n
+4 tbsp. peanut butter\n
+1 c. water
+">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:layout_width="170dp"
+        android:layout_height="27dp">
+
+
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="170dp"
+            android:layout_height="27dp"
+            android:background="@drawable/pink"
+            android:layout_gravity="center"
+            android:text="Process"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:layout_width="357dp"
+        android:layout_height="280dp">
+
+
+        <TextView
+            android:layout_width="357dp"
+            android:layout_height="280dp"
+            android:layout_gravity="center"
+            android:background="@color/black"
+            android:text="1.Grease 4 ramekins with butter. In a medium microwave-safe bowl, combine butter and chocolate chips and melt in 30-second intervals until melted. Add powdered sugar, eggs, egg yolks, and vanilla and whisk until smooth. Add cocoa powder, flour, and salt and whisk until just combined.\n
+2.	Pour ramekins only halfway with batter, then top each ramekin with about 1 heaping tablespoon of peanut butter. Top with remaining batter. Cover ramekins tightly with foil.\n
+3.	Place trivet inside Instant Pot and pour in water. Place 3 ramekins on trivet and stack fourth one in center on top. Lock lid and Pressure Cook on High for 20 minutes.\n
+4.	Follow manufacturer's instructions for quick release and, using tongs, carefully remove ramekins from Instant Pot."
+            android:textColor="#ffffff"
+            android:textSize="12sp">
+
+        </TextView>
+    </LinearLayout>
+    </LinearLayout>
